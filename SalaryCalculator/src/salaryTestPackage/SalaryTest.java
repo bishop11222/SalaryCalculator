@@ -14,11 +14,11 @@ public class SalaryTest {
 		
 		ISalaryModel mdl = new SalaryModel();
 		
-		double inputValue = 1600;
+		double inputValue = 2000;
 		
 		double[] outputValues = mdl.Calculate(inputValue);
 		
-		assertArrayEquals(new double[] { 2444, 1400, 502 }, outputValues);
+		assertArrayEquals(new double[] { 1740, 260, 604 }, outputValues);
 	}
 
 }
